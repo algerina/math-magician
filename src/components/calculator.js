@@ -24,6 +24,6 @@ export default function Calculator() {
       <button type="button" className="large-button">0</button>
       <button type="button" className="number">.</button>
       <button type="button" className="operation">=</button>
-    </div> 
+    </div>
   );
 }
