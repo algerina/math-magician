@@ -1,7 +1,12 @@
 import React from 'react';
 import '../calculator.css';
 
-export default function Calculator() {
+class Calculator extends React.Component {
+	constructor(props) { 
+		super(props);
+		this.state = {};
+	}
+	render() { 
   return (
     <div className="container">
       <div className="screen">0</div>
@@ -25,5 +30,8 @@ export default function Calculator() {
       <button type="button" className="number">.</button>
       <button type="button" className="operation">=</button>
     </div>
-  );
+	);
+	}
 }
+
+export default Calculator;
