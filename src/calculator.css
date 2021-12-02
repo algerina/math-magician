@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(to right, #ffc8dd, #bde0fe);
+}
+
 .container {
   display: grid;
   justify-content: center;
@@ -24,7 +28,7 @@
 }
 
 .screen {
-  background-color: #1d3557;
+  background-color: #a2d2ff;
   color: white;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
@@ -32,7 +36,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 8px;
+  padding: 20px;
   text-align: right;
 }
 
@@ -43,18 +47,18 @@ button {
 }
 
 button:hover {
-  background-color: #f1faee;
+  background-color: #fff6f9;
 }
 
 .large-button {
   grid-column: span 2;
-  background-color: #457b9d;
+  background-color: #ffafcc;
 }
 
 .operation {
-  background-color: #e63946;
+  background-color: #bde0fe;
 }
 
 .number {
-  background-color: #a8dadc;
+  background-color: #ffc8dd;
 }

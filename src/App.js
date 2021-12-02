@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Calculator from './components/calculator';
+import Calculator from './components/Calculator'; // eslint-disable-line
 
 // import render from 'dom-serializer';
 
