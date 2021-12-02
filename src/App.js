@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Calculator from './components/calculator';
+import Calculator from './components/Calculator';
 
 // import render from 'dom-serializer';
 
