@@ -5,6 +5,10 @@
 Make simple calculations.
 Read a random math-related quote.
 
+# Screenshot
+![](src/calcScreen.JPG)
+
+
 ## Built With
 - React
 - Visual Studio Code
