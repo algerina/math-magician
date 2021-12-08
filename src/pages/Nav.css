@@ -1,0 +1,28 @@
+.navbar {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.space {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #fff6f900;
+}
+
+h1 {
+    margin-right: 5rem;
+    font-size: 4rem;
+}
