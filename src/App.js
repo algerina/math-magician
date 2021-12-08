@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import Calculator from './components/Calculator'; // eslint-disable-line
-
-// import render from 'dom-serializer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Quote from './pages/Quote';
+import Calcul from './pages/Calcul';
+import MainPage from './pages/MainPage';
+import Nav from './pages/Nav';
 
 class App extends Component {
   constructor(props) {
@@ -11,9 +13,17 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Calculator />
-      </div>
+      <Router>
+        <Nav />
+        <div>
+          <Routes>
+            <Route path="MainPage" element={<MainPage />} />
+            <Route path="Calcul" element={<Calcul />} />
+            <Route path="Quote" element={<Quote />} />
+          </Routes>
+        </div>
+        ,
+      </Router>
     );
   }
 }
