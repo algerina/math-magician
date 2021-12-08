@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Quote from './pages/Quote';
-import Calcul from './pages/Calcul'; 
+import Calcul from './pages/Calcul';
 import MainPage from './pages/MainPage';
 import Nav from './pages/Nav';
 

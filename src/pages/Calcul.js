@@ -1,6 +1,6 @@
-import React from 'react';
-import './Calcul.css';
-import Calculator from '../components/Calculator';
+import React from "react";
+import "./Calcul.css";
+import Calculator from "../components/Calculator.js";
 
 const Calcul = () => (
   <div>
@@ -11,7 +11,6 @@ const Calcul = () => (
       <Calculator />
     </div>
   </div>
-
 );
 
 export default Calcul;
