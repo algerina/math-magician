@@ -1,28 +1,34 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Math-Magician
+
 "Math magician" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 Make simple calculations.
 Read a random math-related quote.
 
 # Screenshot
+
 ![](src/calcScreen.JPG)
 
+## Live Demo
+
+[Live Demo Link](https://wizardly-visvesvaraya-4acdbc.netlify.app/Calcul)
 
 ## Built With
+
 - React
 - Visual Studio Code
 
-
 ## Getting Started
-
 
 ### To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 Web browser (Google Chrome, Firefox, Safari)
 
 ### Setup
+
 Go to the top of the page, press te green button that says "Code", and copy the link. Then you have to go to your console and type
 
 Git clone https://github.com/algerina/math-magician.git
@@ -60,7 +66,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-
 ### Run tests
 
 Javascript linters
@@ -82,14 +87,12 @@ CSS linters
     npx stylelint "**/*.{css,scss}"
 ```
 
-
 ## Author
 
 👤 **Amel Khiri**
 
 - GitHub: [@Algerina](https://github.com/Algerina)
 - LinkedIn: [Amel Khiri](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
-
 
 ## 🤝 Contributing
 
