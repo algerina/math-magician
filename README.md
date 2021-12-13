@@ -12,7 +12,7 @@ Read a random math-related quote.
 
 ## Live Demo
 
-[Live Demo Link](https://wizardly-visvesvaraya-4acdbc.netlify.app/Calcul)
+[Live Demo Link](https://wizardly-visvesvaraya-4acdbc.netlify.app/)
 
 ## Built With
 
